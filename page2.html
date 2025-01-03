@@ -40,9 +40,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Date: 5 January 2025</h1>
-        <p>Please enter the password to proceed:</p>
-        <input type="password" id="password" placeholder="Enter password" />
+        <h1>5 januari 2025</h1>
+        <input type="password" id="password" placeholder="Wachtwoord" />
         <button onclick="checkPassword()">Submit</button>
         <p id="message" style="color: red; display: none;">Incorrect password. Try again.</p>
     </div>
@@ -50,7 +49,7 @@
     <script>
         function checkPassword() {
             const input = document.getElementById('password').value;
-            const correctPassword = 'correctpassword'; // Replace with your desired password
+            const correctPassword = 'Innsbruck'; // Replace with your desired password
 
             if (input === correctPassword) {
                 window.location.href = 'page3.html';
